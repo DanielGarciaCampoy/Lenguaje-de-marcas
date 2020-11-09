@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La fiesta de Halloween</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet"> <!--fuente-->
+    <link rel="shortcut icon" type="image/png" href="imagenes/favicon.png"> <!--favicon-->
+    <link rel="stylesheet" href="estilo/estilo.css"> <!--estilo CSS-->
+    <script type="text/javascript" src="javascript/javascript.js"></script>
+</head>
+<body>
+    <div id="container">
+        <audio id="musicaDS" src="sonido/DS_theme.mp3" controls></audio>
+        </audio>
+        <p id="titulo"><b>La fiesta de Halloween</b></p>
+        <h1 id="advertenciaCasa">"No entres en la casa"</h1>
+        <h2 id="advertenciaCuervos">"No toques el árbol"</h2>
+        <h3 id="lunaMusica">"Toca la luna para escuchar la música de ambiente"</h3>
+        <img src="imagenes/transparente.png" id="transparenteLuna"> <!--foto luna-->
+        <img src="imagenes/transparente1.png" id="transparenteCuervo"> <!--transparenteCuervo-->
+        <img src="imagenes/cuervo.gif" id="gifCuervo"><!--cuervos-->
+        <div
+            id="transparenteLuna"
+            onclick="sonar('musicaDS')">
+        </div>
+        <div
+            id="transparenteCuervo"
+            onclick="gif('gifCuervo')">
+        </div>
+    </div>
+</body>
+</html>
