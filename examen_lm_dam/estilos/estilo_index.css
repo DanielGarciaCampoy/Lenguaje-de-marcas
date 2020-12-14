@@ -1,0 +1,93 @@
+
+@font-face {
+            font-family: dragon_titulo;
+            src: url('../fuentes/DragonFire.ttf')
+}
+
+@font-face {
+            font-family: dragon_texto;
+            src:url('../fuentes/san_frediano_regular.ttf')
+}
+
+body {
+      background-image: url('../imagenes/fondo.jpg');
+    }
+
+#container {
+            position: absolute;
+            margin: auto;
+            width: 90%;
+}
+
+#bloque {
+        background-image: url('../imagenes/fondo_bloque.jpg');
+        width: 70%;
+        margin-left: 17%;
+        height: 100%;
+}
+
+#bloque_blanco {
+        background-color: white;
+        margin-top: 6%;
+        margin-bottom: 5%;
+}
+
+#alagaesia {
+        position: absolute;
+        background-color: rgb(207, 193, 193);
+        opacity: 50%;
+        margin-left: 65%;
+        margin-top: 7%;
+        width: 15%;
+        font-family: dragon_titulo;
+        font-size: 3em;
+}
+
+#morado {
+        margin-top:0%;
+        background-color: blueviolet;
+        font-family: dragon_titulo;
+        margin-left: 17%;
+        margin-right: 13%;
+        font-size: 1.5em;
+        text-align: left;
+}
+
+/**imagenes*/
+#dragon1 {
+          position: center;
+          width: 100%;
+          margin-top: 0%;
+}
+
+#dragones {
+        position: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        opacity: 70%;
+        margin-left: 2%;
+}
+
+/**texto*/
+
+#titulo {
+        position: center;
+        font-family: dragon_titulo;
+        font-size: 1.3em;
+        text-align: center;
+}
+
+#texto {
+        position: center;
+        font-family: dragon_texto;
+        font-size: 0.9em;
+        margin-left: 10%;
+        color: white;
+        text-align: justify;
+        margin-right: 10%;
+}
+
+#hecho_por {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+}
