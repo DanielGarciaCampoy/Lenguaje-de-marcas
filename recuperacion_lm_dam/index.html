@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Norse Myths</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="estilos/estilo_index.css">
+  <link rel="shortcut icon" href="imagenes/favicon.ico">
+</head>
+<header>
+	<nav>
+		<ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Intorduction</a></li>
+      <li><a href="#">History</a></li>
+      <li><a href="#">Galery</a></li>
+      <li><a href="#"">Contact</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">About us</a></li>
+		</ul>
+	</nav>
+</header>
+<script>
+
+function aclarar(opacidad) {
+  document.getElementById('img_vik').style.opacity= opacidad;
+}
+function aclarar1(opacidad) {
+  document.getElementById('img_vik_s').style.opacity= opacidad;
+}
+function aclarar2(opacidad) {
+  document.getElementById('img_vik_s1').style.opacity= opacidad;
+}
+function aclarar3(opacidad) {
+  document.getElementById('img_vik_s2').style.opacity= opacidad;
+}
+
+</script>
+<body>
+  <div id="container">
+
+    <img id="norse_myth" src="imagenes/norse-mithology-bg.jpg" width="100%">
+    <div id="titulo1">NORSE MYTHS</div>
+
+    <p id="titulo2"">Beyond legends</p>
+    <div id="caja1">
+      <img id="img1" src="imagenes/drakkar.jpg">
+      <p id="texto">
+        Come with us in a back journey to Scandinavia and experience the Viking Age!
+        <br>While Vikings engaged in invading and pillaging, their societies were complex and multifaceted and influential.
+        <br>They were skilled craftspeople, successful merchants, and diligent farmers with significant impact across western Europe and beyond.
+        <br>And one of the most fascinating and revealing facets of their culture is Norse Mythology, remaining nowadays as a source of knowledge about Vikings beliefs and attitude in life and death.
+      </p>
+    </div>
+
+    <p id="titulo3">GALLERY</p>
+
+    <div id="caja2">
+      <div id="caja_vik1">
+        <img id="img_vik" src="imagenes/odin-2.jpg" onmouseover="aclarar('100%')" onmouseout="aclarar('60%')">
+        <p id="titulo4">ODIN, THE ALFATHER</p>
+      </div>
+      <div id="caja_vik1">
+        <img id="img_vik_s" src="imagenes/yggdrasil-2.jpg" onmouseover="aclarar1('100%')" onmouseout="aclarar1('60%')">
+        <p id="titulo4">Yggdrasil</p>
+      </div>
+      <div id="caja_vik1">
+        <img id="img_vik_s1" src="imagenes/valkyrie-2.jpg" onmouseover="aclarar2('100%')" onmouseout="aclarar2('60%')">
+        <p id="titulo4">Valkyries</p>
+      </div>
+      <div id="caja_vik1">
+        <img id="img_vik_s2" src="imagenes/ragnarok.jpg" onmouseover="aclarar3('100%')" onmouseout="aclarar3('60%')">
+        <p id="titulo4">Ragnarok</p>
+      </div>
+    </div>
+  </div>
+  <div id="caja3">
+    <img id="img2" src="imagenes/magic-protection.png" width="100">
+    <p id="texto" style="color: rgb(0, 0, 0); font-size: 1em; margin-top: 5%;">
+      Author: Pilar González Augusto
+      <br>Markup languages - IES Campanillas
+      <br>January A.D. MMXXI
+    </p>
+  </div>
+</body>
+</html>
