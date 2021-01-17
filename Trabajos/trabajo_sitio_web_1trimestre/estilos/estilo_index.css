@@ -1,0 +1,122 @@
+
+@font-face {
+            font-family: dragon_texto;
+            src:url('../fuentes/san_frediano_regular.ttf')
+}
+
+body {
+        background-image: url('../imagenes/fondo.jpg');
+        width: 100%;
+    }
+
+#container {
+            position: absolute;
+            margin: auto;
+            width: 90%;
+}
+
+#bloque_blanco {
+        background-color: white;
+        width: 100%;
+        margin-left: 4%;
+        height: 100%;
+}
+
+/**nav*/
+nav {
+        float: left;
+        }
+
+nav ul {
+        list-style: none;
+        overflow: hidden;
+        }
+
+nav ul li {
+        float: left;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+}
+
+nav ul li a {
+        display: inline-block;
+        padding: 20px;
+        color: #fff;
+        text-decoration: none;
+}
+
+nav ul li:hover {
+        background: #3ead47;
+}
+
+.wrapper {
+        width: 80%;
+        margin: auto;
+        overflow:hidden;
+        }
+
+.contenido {
+        padding-top: 80px;
+}
+
+* {
+        padding: 0;
+        margin: 0;
+}
+
+p {
+        margin-bottom: 20px;
+}
+
+header {
+        background: rgba(0, 0, 0, 0.637);
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+}
+
+/**imagenes*/
+#img_indice {
+        position: center;
+        width: 60%;
+        margin-left: 20%;
+}
+
+#img {
+        position: relative;
+        margin-left: 7%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+}
+
+/**texto*/
+
+#indice {
+        position: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.1em;
+        text-align: center;
+}
+
+#hecho_por {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 5%;
+}
+
+#titulo {
+        position: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.1em;
+        text-align: left;
+        margin-left: 3%;
+        margin-top: 3%;
+}
+
+#texto {
+        position: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        text-align: left;
+        margin-left: 3%;
+}
