@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabajo Bootstrap</title>
+
+  <link rel="shortcut icon" type="image/jpg" href="img/favicon.png">
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="" width="100">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Introducción</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html#top5">Top 5</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html#informacion">Información</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html#formulario">Formulario</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--carrousel-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/slide1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/slide3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--TOP 5-->
+  <h1 style="text-align: center; margin-top: 5%; margin-bottom: 5%;" id="top5">
+    TOP 5 consolas más vendidas:
+  </h1>
+
+  <div class="row">
+    <div class="col-sm">
+      <div class="card w-100">
+        <img src="img/slide1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">TOP 1: PlayStation 2</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card w-100">
+        <img src="img/nds.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">TOP 2: Nintendo DS</p>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card w-100">
+        <img src="img/gb.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">TOP 3: GameBoy</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card w-100">
+        <img src="img/slide3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">TOP 4: PlayStation 4</p>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card w-100">
+        <img src="img/ps.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">TOP 5: PlayStation 1</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Información-->
+  <h1 style="text-align: center; margin-top: 5%; margin-bottom: 5%;" id="informacion">
+    Información
+  </h1>
+  <h2 style="text-align: left; margin-top: 5%; margin-bottom: 5%;" id="informacion">
+    Siguenos en nuestras redes sociales:
+  </h2>
+
+  <div class="card" style="width: 18rem; float: left;">
+    <img src="img/ig.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Instagram</h5>
+      <a href="https://www.instagram.com/" class="btn btn-primary">Acceder</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem; float: left;">
+    <img src="img/twitter.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Twitter</h5>
+      <a href="https://twitter.com/" class="btn btn-primary">Acceder</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem; float: left;">
+    <img src="img/face.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Facebook</h5>
+      <a href="https://es-es.facebook.com/" class="btn btn-primary">Acceder</a>
+    </div>
+  </div>
+
+  <h2 style="text-align: left; margin-top: 5%; margin-bottom: 5%;" id="informacion">
+    Ubícanos:
+  </h2>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309416.374014148!2d-5.536556119060509!3d35.901642038179844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7134e9fd7091b5%3A0xd1256645b08b9d84!2sMar%20de%20Albor%C3%A1n!5e0!3m2!1ses!2ses!4v1614891590706!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+  <!--Formulario-->
+  <h1 style="text-align: center; margin-top: 5%; margin-bottom: 5%;" id="formulario">
+    Formulario
+  </h1>
+
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">No compartiremos tu información con nadie</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Política de privacidad <a href="index.html#politica">Leer</a></label>
+    </div>
+    <button type="submit" class="btn btn-primary">Aceptar</button>
+  </form>
+
+  <h5 style="text-align: left; margin-top: 5%; margin-bottom: 5%;" id="politica">
+    Política de privacidad:
+  </h5>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cupiditate,
+    optio enim labore quo doloribus laboriosam accusantium, esse mollitia illo
+    id iusto odio nesciunt minus blanditiis quod qui voluptatum ipsum?</p>
+
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
