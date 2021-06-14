@@ -1,0 +1,102 @@
+<!--
+  principio arriba no se hace, se pone navbar de w3school
+  beneficios tampoco
+  footer (parte abajo) basado en columnas
+  optimiza tu metodologia basado en columnas
+  imagenes video que desaparezcan
+  imagen de fondo arriba de footer usar cualquiera
+  el navbar tiene que estar fijo (fixed)
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Season</title>
+  <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!--navbar-->
+  <div class="topnav" id="myTopnav">
+    <a href="#metodologia" class="active">Metodología</a>
+    <a href="#planificacion">Planificación</a>
+    <a href="#">Beneficios</a>
+    <a href="#">Más info</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!--metodologia-->
+  <div id="metodologia">
+    <div id="textoMetodologia">
+      <h1 class="h1azul">OPTIMIZA TU METODOLOGIA DE ENTRENAMIENTO</h1>
+      <h3 class="">Mejora la calidad del entrenamiento y potencia el
+        rendimiento de tu equipo con el aporte inteligente de los datos<br><br>
+        <a class="boton" id="boton" onmouseover="botonOver()">SOLICITA INFORMACIÓN</a>
+      </h3>
+    </div>
+    <div id="imgMetodologia">
+      <img class="imgHome" src="img/home.png">
+    </div>
+  </div>
+
+  <!--planificacion-->
+  <div id="planificacion">
+
+    <h1 class="h1Planificacion">
+      Optimiza la planificación del entrenamiento
+      analizando en tiempo real el dashboard con los datos de la preparación realizada
+    </h1>
+
+    <img src="img/sport1.png" id="futbol1">
+
+    <iframe id="yt" src="https://www.youtube.com/embed/lv8w7xgkH6A"
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+    <img src="img/sport2.png" id="bc">
+
+    <p><a class="boton" id="boton" onmouseover="botonOver()" style="margin-left: 42%;">MÁS INFORMACIÓN AQUÍ</a></p>
+
+  </div>
+
+  <!--final-->
+  <div id="final">
+
+    <img class="img2" src="https://smartseason.es/assets/img/logo.svg">
+
+    <div id="cuadro">
+      <h3>
+        El entrenamiento es el lugar donde podemos desarrollar el rendimiento de nuestro equipo,
+        pero si no conocemos nuestra propia metodología de entrenamiento... ¿Cómo podemos mejorarla?
+      </h3>
+    </div>
+    <div id="cuadro">
+      <h3>
+        ¿Te gustaría invertir tu tiempo en analizar los datos de la preparación de tu equipo en
+        lugar de perderlo en el desarrollo de un excel?
+      </h3>
+    </div>
+    <div id="cuadro">
+      <h3>
+        ¿Quieres potenciar tu experiencia deportiva con el aporte de los datos para optimizar
+        tú toma de decisión y el rendimiento de tu equipo?
+      </h3>
+    </div>
+    <p><a class="boton" id="boton" onmouseover="botonOver()" style="margin-left: 42%;">SOLICITA INFORMACIÓN</a></p>
+
+  </div>
+  <!--footer-->
+  <div id="footer">
+    <img src="https://smartseason.es/assets/img/logo.svg">
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
