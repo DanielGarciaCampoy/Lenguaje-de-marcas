@@ -1,0 +1,45 @@
+body {
+  background: #4568DC;
+  background: linear-gradient(to left, #4568DC, #ffffff);
+}
+
+#container {
+  background: white;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#blanco {
+  color: white;
+}
+
+@media (max-width: 500px) {
+  #container {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 840px) {
+  #container {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 400px) {
+  #container {
+    margin-top: 15%;
+  }
+}
+
+form {
+  margin-left: 20%;
+  margin-right: 20%;
+}
